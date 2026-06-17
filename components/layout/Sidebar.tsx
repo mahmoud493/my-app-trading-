@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { classNames } from 'classnames';
+import classNames from 'classnames';
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', icon: '📊' },
